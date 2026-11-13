@@ -83,6 +83,7 @@ Question: {question}
 st.title("🎥 Chat with YouTube Video")
 st.write("Enter a YouTube video link below, let us index the transcript, and ask any questions you have!")
 
+
 with st.sidebar:
    st.header("Settings")
    youtube_url= st.text_input("Enter YouTube Video URL:", placeholder="https://www.youtube.com/watch?v=...")
